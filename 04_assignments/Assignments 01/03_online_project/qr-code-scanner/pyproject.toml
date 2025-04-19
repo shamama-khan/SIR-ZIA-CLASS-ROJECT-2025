@@ -1,0 +1,11 @@
+[project]
+name = "qr-code-scanner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+    "qrcode>=8.1",
+]

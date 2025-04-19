@@ -1,0 +1,10 @@
+[project]
+name = "01-mad-libs-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fpdf>=1.7.2",
+    "streamlit>=1.44.0",
+]
