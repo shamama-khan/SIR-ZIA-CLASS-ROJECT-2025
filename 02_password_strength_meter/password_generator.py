@@ -16,7 +16,7 @@ def generate_password(length, use_digits, use_special):
     return ''.join(random.choice(characters) for _ in range(length))
 
 # Streamlit UI title
-st.title("Password Generator by Sadiq Khan")
+st.title("Password Generator by Shamim Akhtar")
 
 # User input: Select password length using a slider (6 to 32 characters, default 12)
 length = st.slider("Select Password Length", min_value=6, max_value=32, value=12)
